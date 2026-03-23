@@ -1,17 +1,17 @@
 // параметры 
-var scrolled;
-window.onscroll = function () {
-  scrolled = window.pageYOffset || document.documentElement.scrollTop;
-  document.getElementById('scroll').innerHTML = scrolled + 'px : scroll';
-  // let g = elem2.style.transform = 'translateY(' + scrolled*-2 + 'px)';
+// var scrolled;
+// window.onscroll = function () {
+//   scrolled = window.pageYOffset || document.documentElement.scrollTop;
+//   document.getElementById('scroll').innerHTML = scrolled + 'px : scroll';
+//   // let g = elem2.style.transform = 'translateY(' + scrolled*-2 + 'px)';
 
-}
-$(window).on('load resize', function () {
-  var width = $('html').outerWidth();
-  var height = $(window).height();
-  $('#width').html(width + 'px : width');
-  $('#height').html(height + 'px : height');
-});
+// }
+// $(window).on('load resize', function () {
+//   var width = $('html').outerWidth();
+//   var height = $(window).height();
+//   $('#width').html(width + 'px : width');
+//   $('#height').html(height + 'px : height');
+// });
 
 // document.onmousemove = function (e) {
 //   var X = e.pageX;
