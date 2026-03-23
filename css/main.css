@@ -599,7 +599,7 @@ header {
 
 .logoHouse {
   min-height: inherit;
-  background-image: url("/images/logoHouse2.png");
+  background-image: url("../images/logoHouse2.webp");
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -623,7 +623,7 @@ header {
   border-left: 1px solid white;
   margin: 0 auto;
   min-height: 72vh;
-  background-image: url("/images/SAM_0122.jpg");
+  background-image: url("../images/SAM_0122.webp");
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -728,51 +728,51 @@ header {
   height: 50px;
 }
 .sec3Content div:nth-child(1) {
-  background-image: url("/images/sprite1.png");
+  background-image: url("../images/sprite1.webp");
   background-position: 0 0;
 }
 .sec3Content div:nth-child(3) {
-  background-image: url("/images/sprite1.png");
+  background-image: url("../images/sprite1.webp");
   background-position: 50px 0;
 }
 .sec3Content div:nth-child(5) {
-  background-image: url("/images/sprite1.png");
+  background-image: url("../images/sprite1.webp");
   background-position: 100px 0;
 }
 .sec3Content div:nth-child(7) {
-  background-image: url("/images/sprite1.png");
+  background-image: url("../images/sprite1.webp");
   background-position: 150px 0;
 }
 .sec3Content div:nth-child(9) {
-  background-image: url("/images/sprite1.png");
+  background-image: url("../images/sprite1.webp");
   background-position: 0 -50px;
 }
 .sec3Content div:nth-child(11) {
-  background-image: url("/images/sprite1.png");
+  background-image: url("../images/sprite1.webp");
   background-position: 150px -50px;
 }
 .sec3Content div:nth-child(13) {
-  background-image: url("/images/sprite1.png");
+  background-image: url("../images/sprite1.webp");
   background-position: 100px -50px;
 }
 .sec3Content div:nth-child(15) {
-  background-image: url("/images/sprite1.png");
+  background-image: url("../images/sprite1.webp");
   background-position: 50px -50px;
 }
 .sec3Content div:nth-child(17) {
-  background-image: url("/images/sprite1.png");
+  background-image: url("../images/sprite1.webp");
   background-position: 0 -100px;
 }
 .sec3Content div:nth-child(19) {
-  background-image: url("/images/sprite1.png");
+  background-image: url("../images/sprite1.webp");
   background-position: 150px -100px;
 }
 .sec3Content div:nth-child(21) {
-  background-image: url("/images/sprite1.png");
+  background-image: url("../images/sprite1.webp");
   background-position: 100px -100px;
 }
 .sec3Content div:nth-child(23) {
-  background-image: url("/images/sprite1.png");
+  background-image: url("../images/sprite1.webp");
   background-position: 50px -100px;
 }
 
@@ -838,7 +838,7 @@ header {
 .sec5Img {
   width: 240px;
   height: 180px;
-  background-image: url("/images/sprite22.png");
+  background-image: url("../images/sprite22.webp");
 }
 
 #sec5Img2 {
@@ -983,7 +983,7 @@ footer p {
   transition: transform 0.2s, -webkit-transform 0.2s;
 }
 #telegramP::before {
-  content: url("/images/telegramIcon.png");
+  content: url("../images/telegramIcon.webp");
   position: relative;
   top: 5px;
   left: -8px;
@@ -996,7 +996,7 @@ footer p {
 
 #mailP::before {
   position: relative;
-  content: url("/images/gmailIcon.png");
+  content: url("../images/gmailIcon.webp");
   top: 5px;
   left: -8px;
 }
