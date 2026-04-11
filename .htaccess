@@ -1,12 +1,18 @@
 RewriteEngine on
 
+# Установка правильного MIME-типа для sitemap.xml
+<IfModule mod_mime.c>
+  AddType application/xml xml
+  AddType application/xml sitemap
+</IfModule>
+
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
 RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 
+# Исключаем sitemap.xml из rewrite правил для HTML
+RewriteCond %{REQUEST_URI} !^/sitemap\.xml$
 RewriteCond %{REQUEST_FILENAME} !-d
-
 RewriteCond %{REQUEST_FILENAME}\.html -f
-
 RewriteRule ^(.*)$ $1.html
 
 # Включение gzip сжатия
