@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://stroitelstvo32.ru/sitemap.xml
